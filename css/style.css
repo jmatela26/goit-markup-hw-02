@@ -31,9 +31,6 @@ button {
     background-color: var(--iris);
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    
-    /* Button Text */
-    font-family: Roboto;
 }
 
 button:hover,
