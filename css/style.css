@@ -39,7 +39,7 @@ button:focus {
     color: var(--iris);
 }
 
-h2 {
+h1, h2 {
     text-align: center;
 }
 
@@ -60,7 +60,6 @@ ul {
     font-weight: 700;
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
-    text-align: center;
     text-transform: uppercase;
 }
 
