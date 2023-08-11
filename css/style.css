@@ -75,6 +75,5 @@ footer {
     width: 1440px;
     height: 312px;
     background-color: var(--navyblue);
-    flex-shrink: 0;
     color: var(--white);
 }
