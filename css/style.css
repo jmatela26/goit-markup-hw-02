@@ -9,6 +9,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#logo, #logo-footer {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 a {
     text-decoration: none;
     font-weight: 500;
@@ -26,6 +33,7 @@ a:focus {
 }
 
 button {
+    font-family: inherit;
     cursor: pointer;
     color: var(--white);
     background-color: var(--iris);
