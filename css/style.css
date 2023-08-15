@@ -89,6 +89,7 @@ ul, header {
     color: var(--white);
 }
 
+/* start button css for porfolio */
 .filter-button-section ul > li > button {
     border-radius: 0px;
     border: 0px solid var(--cornflower, #E7E9FC);
@@ -102,6 +103,8 @@ ul, header {
     background-color: var(--iris);
     color: var(--white);
 }
+/* end of button css for porfolio */
+
 
 footer {
     background-color: var(--navyblue);
