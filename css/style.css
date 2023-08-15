@@ -92,8 +92,8 @@ ul, header {
 /* start button css for porfolio */
 .filter-button-section ul > li > button {
     border-radius: 0px;
-    border: 0px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+    border: 0px solid var(--cornflower);
+    background: var(--cloud);
     padding: 2px 5px;   
     color: var(--iris);
 }
