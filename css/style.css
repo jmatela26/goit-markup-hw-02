@@ -1,112 +1,118 @@
 :root {
-    --navyblue: #2E2F42;
-    --white: #ffffff;
-    --iris: #4D5AE5;
-    --cloud: #F4F4FD;
-    --cornflower: #E7E9FC;
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-#logo, #logo-footer {
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
+.logo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: var(--navyblue);
 }
 
 a {
-    text-decoration: none;
-    font-weight: 500;
-    color: var(--navyblue);
-    font-style: normal;  
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--navyblue);
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  font-size: 16px;
 }
 
-.nav-bar > ul > li > 
-a:hover, 
+header a:hover,
 a:focus {
-    color: var(--iris);
+  color: var(--iris);
 }
 
 button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .hero-section > button {
-    color: var(--white);
-    background-color: var(--iris);
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border: 0;
-    width: 169px;
-    height: 56px;
+  color: var(--white);
+  background-color: var(--iris);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 0;
+  width: 169px;
+  height: 56px;
 }
 
 button:hover,
 button:focus {
-    background-color: var(--white);
-    color: var(--iris);
+  background-color: var(--white);
+  color: var(--iris);
 }
 
-h1, 
+h1,
 h2,
 .our-team-section p,
 .our-team-section h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .our-team-section {
-   background-color: var(--cloud);
+  background-color: var(--cloud);
 }
 
-ul, header {
-    list-style-type: none;
+ul,
+header {
+  list-style-type: none;
 }
 
 .hero-section {
-    background-color: var(--navyblue);
-    color: var(--white);
+  background-color: var(--navyblue);
+  color: var(--white);
 }
 
 .hero-section > h1 {
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;
-    text-transform: uppercase;
-}
-
-#btn-active {
-    background-color: var(--iris);
-    color: var(--white);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
 }
 
 /* start button css for porfolio */
-.filter-button-section ul > li > button {
-    border-radius: 0px;
-    border: 0px solid var(--cornflower);
-    background: var(--cloud);
-    padding: 2px 5px;   
-    color: var(--iris);
+.portfolio-section ul > li > button {
+  border-radius: 0px;
+  border: 0px solid var(--cornflower);
+  background: var(--cloud);
+  padding: 2px 5px;
+  color: var(--iris);
 }
 
-.filter-button-section ul > li > button:hover,
-.filter-button-section ul > li > button:focus {
-    background-color: var(--iris);
-    color: var(--white);
+.portfolio-section ul > li > button:hover,
+.portfolio-section ul > li > button:focus {
+  background-color: var(--iris);
+  color: var(--white);
 }
 /* end of button css for porfolio */
 
+footer .logo-span {
+  color: var(--white);
+}
 
 footer {
-    background-color: var(--navyblue);
-    color: var(--white);
+  background-color: var(--navyblue);
+  color: var(--white);
 }
