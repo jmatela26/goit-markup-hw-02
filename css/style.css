@@ -85,9 +85,8 @@ header {
 
 .hero-section > h1 {
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07143; /* 107.143% */
   letter-spacing: 1.12px;
   text-transform: uppercase;
 }
